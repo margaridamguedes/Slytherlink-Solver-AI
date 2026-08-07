@@ -9,22 +9,6 @@ A Python program that solves instances of the Slitherlink puzzle using AI search
 
 The problem is modeled as a search problem (Problem/Node classes from search.py) and solved with the provided search strategy depth-first tree search, using a custom heuristic to guide the informed searches.
 
-Input format
-
-The program reads an instance from standard input: a grid of rows/columns where each value is 0, 1, 2, 3, or . (no constraint).
-
-1 . 3 1 . 3
-. . . 3 . .
-. 3 . 2 1 .
-. 0 2 . 1 .
-. . 2 . . .
-2 . 2 3 . 3
-Output format
-
-The solution is printed to standard output, one line per grid row. Each cell is represented by 4 binary digits — top right bottom left — indicating whether that edge is part of the solution (1) or not (0).
-
-0010 0010 1101 0001 0010 1101
-1001 1010 0100 0111 1001 0110
 ...
 Usage
 bash
