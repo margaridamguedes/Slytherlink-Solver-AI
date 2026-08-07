@@ -9,14 +9,15 @@ A Python program that solves instances of the Slitherlink puzzle using AI search
 
 The problem is modeled as a search problem (Problem/Node classes from search.py) and solved with the provided search strategy depth-first tree search, using a custom heuristic to guide the informed searches.
 
-...
+
 Usage
+
 bash
 python slitherlink.py < test.txt
 
-Optionally, a SlitherlinkGUI instance (from slitherlink_gui.py) can be used for a visual, interactive representation of the board during development.
 
 Project structure
+
 File	Responsibility
 slitherlink.py	Main program: reads the instance, builds the problem, runs the search and prints the solution.
 search.py	Provided search algorithms and base Problem/Node classes (not modified).
@@ -35,4 +36,4 @@ Only the Python standard library and numpy are used; search.py and utils.py are 
 
 Authors
 
-(fill in with group members' names and student numbers)
+
